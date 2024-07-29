@@ -24,6 +24,6 @@ namespace assignment3.Models
         public string ShippingAddress { get; set; } = string.Empty;
 
         [Required]
-        public decimal TotalAmount { get; set; }  // Add this property if your views are referencing it
+        public decimal TotalAmount { get; set; }  
     }
 }
